@@ -19,8 +19,7 @@ setup(
         "OpenAIAuth==0.3.2",
         "requests[socks]",
         "httpx[socks]",
-        "prompt-toolkit",
-        "tiktoken>=0.3.0",
+        "prompt-toolkit"
     ],
     extras_require={
         "WebGPT": ["duckduckgo_search"],
